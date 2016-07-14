@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [
 
-    url(r'^home/$', views.home, name = 'home'),
-    url(r'^category/(?P<categoria_id>\d+)/$', views.categoria, name='category'),
-    url(r'^product/(?P<producto_id>\d+)/$', views.producto, name='product'),
+    url(r'^index/$', views.index, name = 'idex'),
+    url(r'^category/(?P<categoria_id>\d+)/$', views.category, name='category'),
+    url(r'^product/(?P<producto_id>\d+)/$', views.product, name='product'),
 ]
